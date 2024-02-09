@@ -670,6 +670,14 @@ input {
     margin-right: 10px;
 }
 
+li .none {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 input:checked~.navbar-list {
     left: 0;
 }

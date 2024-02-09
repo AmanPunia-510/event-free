@@ -1,0 +1,26 @@
+                            <div class="gallry ff-poppins">GALLERY</div>
+                            <div
+                                class="row d-flex flex-direx-row flex-wrap mt-168 justi-cont-even-md position-relative right-60">
+                                <div class="col-4 col-2-md col-2-lg ">
+                                   
+                                </div>
+                                <div class="col-4 col-2-md col-2-lg">
+                                    
+                                </div>
+                                <div class="col-4 col-2-md col-2-lg">
+                                   
+                                </div>
+                            </div>
+
+                            <div
+                                class="row d-flex flex-direx-row flex-wrap mt-15 justi-cont-even-md position-relative right-60">
+                                <div class="col-4 col-2-md col-2-lg">
+                                   
+                                </div>
+                                <div class="col-4 col-2-md col-2-lg">
+                                   
+                                </div>
+                                <div class="col-4 col-2-md col-2-lg">
+
+                                </div>
+                            </div>

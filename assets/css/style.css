@@ -213,9 +213,8 @@ button {
 }
 
 .button-diffrent:hover {
-    box-shadow: 2px 9px 32px 0px #0000000F;
-    background-color: #ffffff;
-    color: #2C49FE;
+    background-color: #2C49FE;
+    color: #000000;
 }
 
 .z-index-2 {

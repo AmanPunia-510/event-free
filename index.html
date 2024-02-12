@@ -11,35 +11,35 @@
 <body>
     <!-- navbar or background image -->
     <div class="section-1 d-flex flex-direx-col">
-        <div class="container width-100 position-relative z-index-2">
-            <div class="navbar d-flex justi-cont-beet align-item-center">
-                <div class="container d-flex width-100 justi-cont-beet">
-                    <div class="logo d-flex justy-cont-cent align-item-center">
-                        <img src="./assets/images/image1.png" alt="image" class="main-logo">
-                        <span class="event logo-eventfree ff-poppins">Events<span
-                                class="free logo-eventfree ff-poppins">Free</span></span>
-                    </div>
-
-                    <input type="checkbox" id="menubar" hidden>
-                    <label for="menubar">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
-
-                    <ul class="navbar-list list-style-none d-flex gap-60 align-item-center">
-                        <li class="list list1"><a href="#" class="ff-poppins color-fff">HOME</a></li>
-                        <li class="list list1"><a href="#" class="ff-poppins color-fff">EVENTS</a></li>
-                        <li class="list list1"><a href="#" class="ff-poppins color-fff">FEED</a></li>
-                        <li class="list list1"><a href="#" class="ff-poppins color-fff">USER NAME</a></li>
-                        <li class="list-4"><a href="#"><button class="button-1 ff-poppins color-fff">Log
-                                    Out</button></a>
-                        </li>
-                    </ul>
+        <!-- <div class="container width-100 position-relative z-index-2"> -->
+        <div class="navbar d-flex justi-cont-beet align-item-center position-relative z-index-2">
+            <div class="container d-flex width-100 justi-cont-beet">
+                <div class="logo d-flex justy-cont-cent align-item-center">
+                    <img src="./assets/images/image1.png" alt="image" class="main-logo">
+                    <span class="event logo-eventfree ff-poppins">Events<span
+                            class="free logo-eventfree ff-poppins">Free</span></span>
                 </div>
+
+                <input type="checkbox" id="menubar" hidden>
+                <label for="menubar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <ul class="navbar-list list-style-none d-flex gap-60 align-item-center">
+                    <li class="list list1"><a href="#" class="ff-poppins color-fff">HOME</a></li>
+                    <li class="list list1"><a href="#" class="ff-poppins color-fff">EVENTS</a></li>
+                    <li class="list list1"><a href="#" class="ff-poppins color-fff">FEED</a></li>
+                    <li class="list list1"><a href="#" class="ff-poppins color-fff">USER NAME</a></li>
+                    <li class="list-4"><a href="#"><button class="button-1 ff-poppins color-fff">Log
+                                Out</button></a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="container d-flex align-item-center flex-grow">
+        <!-- </div> -->
+        <div class="container d-flex align-item-center flex-grow width-100">
             <div class="row d-flex flex-direx-row flex-wrap position-relative z-index">
                 <div class="col-12">
                     <div class="box-head-para-button">
@@ -466,36 +466,42 @@
                             <div class="gallry ff-poppins">GALLERY</div>
                             <div class="row d-flex flex-direx-row flex-wrap">
                                 <div class="col-4">
-
-                                    <img src="./assets/images/Rectangle42.png" alt=""
-                                        class="gallry-img-1 width-100 mb-13">
+                                    <a href="#">
+                                        <img src="./assets/images/Rectangle42.png" alt=""
+                                            class="gallry-img-1 width-100 mb-13 gallry-image">
+                                    </a>
                                 </div>
-                                <div class="col-4 gallry-img-2">
-                                    <img src="./assets/images/Rectangle43.png" alt=""
-                                        class="gallry-img-22 width-100 mb-13">
+                                <div class="col-4 gallry-img-2"><a href="#">
+                                        <img src="./assets/images/Rectangle43.png" alt=""
+                                            class="gallry-img-22 width-100 mb-13 gallry-image">
+                                    </a>
                                 </div>
-                                <div class="col-4 gallry-img-3">
-                                    <img src="./assets/images/Rectangle44.png" alt=""
-                                        class="gallry-img-33 width-100 mb-13 ">
+                                <div class="col-4 gallry-img-3"><a href="#">
+                                        <img src="./assets/images/Rectangle44.png" alt=""
+                                            class="gallry-img-33 width-100 mb-13 gallry-image">
+                                    </a>
                                 </div>
-                                <div class="col-4">
-                                    <img src="./assets/images/Rectangle45.png" alt=""
-                                        class="gallry-img-4 width-100 height-100">
+                                <div class="col-4"><a href="#">
+                                        <img src="./assets/images/Rectangle45.png" alt=""
+                                            class="gallry-img-4 width-100 height-100 gallry-image">
+                                    </a>
                                 </div>
-                                <div class="col-4">
-                                    <img src="./assets/images/Rectangle46.png" alt=""
-                                        class="gallry-img-5 width-100 height-100">
+                                <div class="col-4"><a href="#">
+                                        <img src="./assets/images/Rectangle46.png" alt=""
+                                            class="gallry-img-5 width-100 height-100 gallry-image">
+                                    </a>
                                 </div>
-                                <div class="col-4">
-                                    <div class="box-show-more">
-                                        <div class="show-more ff-poppins">Show More</div>
-                                    </div>
+                                <div class="col-4"><a href="#">
+                                        <div class="box-show-more gallry-image">
+                                            <div class="show-more ff-poppins color-fff">Show More</div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <div class="sub-footer ff-poppins">© Credits of companyName belong to companyName.</div>
     </footer>

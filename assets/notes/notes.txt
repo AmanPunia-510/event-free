@@ -39,3 +39,26 @@
 
                     </div>
                 </div>
+
+
+                                        <div class="col-4">
+                                    <img src="./assets/images/Rectangle 42.png" alt=""
+                                        class="gallry-img-1 width-100 mb-13">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/images/Rectangle 43.png" alt=""
+                                        class="gallry-img-2 width-100 mb-13">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/images/Rectangle 44.png" alt=""
+                                        class="gallry-img-3 width-100 mb-13">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/images/Rectangle 45.png" alt="" class="gallry-img-4 width-100">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/images/Rectangle 46.png" alt="" class="gallry-img-5 width-100">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/images/Rectangle 47.png" alt="" class="gallry-img-6 width-100">
+                                </div>

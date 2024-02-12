@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: unset;
+    transition: background 300ms linear;
 }
 
 .d-flex {
@@ -291,7 +292,7 @@ button {
 .h1 {
     font-size: 64px;
     font-weight: 700;
-    line-height: 96px;
+    line-height: 150% !important;
     margin-bottom: 18px;
     max-width: 1044px;
 }

@@ -199,6 +199,10 @@ button {
     width: 100%;
 }
 
+.navbar {
+    margin-top: 10px;
+}
+
 .button-1 {
     font-size: 16px;
     font-weight: 600;
@@ -251,7 +255,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     padding-bottom: 18px;
 }
@@ -283,9 +287,8 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/Rectangle28.png);
-    opacity: 0.7;
     z-index: 0;
+    background: #2C49FECC;
 }
 
 
@@ -295,6 +298,7 @@ button {
     line-height: 150% !important;
     margin-bottom: 18px;
     max-width: 1044px;
+    padding-top: 45px;
 }
 
 .p1 {
@@ -540,6 +544,10 @@ span {
     transform: translate(-50%, -50%);
 }
 
+.image3:hover {
+    cursor: pointer;
+}
+
 .box-3 {
     border: 1px solid #2C49FE;
     border-radius: 5px;
@@ -634,6 +642,14 @@ input {
     padding-left: 10px;
     padding-bottom: 90px;
     padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin-top: 16px;
+    color: #4D4D4D;
+    outline: none;
 }
 
 .section-6 {
@@ -675,12 +691,14 @@ input {
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
+    cursor: unset;
 }
 
 .events {
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
+    cursor: unset;
 }
 
 .image4 {
@@ -718,6 +736,12 @@ footer {
 
 .table1 {
     padding-bottom: 11px;
+}
+
+.table1 a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
 }
 
 .box-6 {
@@ -786,7 +810,7 @@ input:checked~.navbar-list {
 
     .navbar-list {
         display: flex;
-        position: absolute;
+        position: fixed;
         width: 100%;
         background-color: #1E71FF;
         flex-direction: column;
@@ -798,6 +822,13 @@ input:checked~.navbar-list {
         justify-content: center;
     }
 
+    .navbar {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        margin: unset;
+    }
+
     .justi-cont-start-lg {
         justify-content: flex-start;
     }
@@ -806,12 +837,12 @@ input:checked~.navbar-list {
         border: none;
     }
 
-    .four {
+    /* .four {
         display: flex;
         justify-content: center;
         width: 100%;
         padding-top: 20px;
-    }
+    } */
 
     .col-12-lg {
         width: 100%;
@@ -903,47 +934,6 @@ input:checked~.navbar-list {
     .mt-20 {
         margin-top: 20px;
     }
-}
-
-@media (max-width:768px) {
-    .col-12-md {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .col-2-md {
-        width: 20%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .navbar {
-        position: fixed;
-        width: 100%;
-        margin-right: 12px;
-        left: 0;
-    }
-
-    .width-md {
-        width: 100%;
-    }
-
-    .flex-direx-col-reverse {
-        flex-direction: column-reverse;
-    }
-
-    .justi-cont-even-md {
-        justify-content: space-evenly;
-    }
-
-    .h1 {
-        font-size: 39px;
-        font-weight: 700;
-        line-height: 72px;
-        margin-bottom: 18px;
-        margin-top: 63px;
-    }
 
     .four-in-one {
         border-radius: 50px;
@@ -987,9 +977,48 @@ input:checked~.navbar-list {
 
     .four {
         width: 50%;
+        display: flex;
         justify-content: center;
+        padding-top: 13px;
     }
 
+    .gap-70-lg {
+        gap: 70px;
+    }
+}
+
+@media (max-width:768px) {
+    .col-12-md {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-2-md {
+        width: 20%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .width-md {
+        width: 100%;
+    }
+
+    .flex-direx-col-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .justi-cont-even-md {
+        justify-content: space-evenly;
+    }
+
+    .h1 {
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 72px;
+        margin-bottom: 18px;
+        margin-top: 63px;
+    }
 
     .right-60 {
         right: 60px;
